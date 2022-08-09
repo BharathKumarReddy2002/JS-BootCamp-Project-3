@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+body{
+  background-color: #2b2922;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.list{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+.list-item{
+  list-style: none;
+  margin-right: 35px;
+  color: #fff;
+  font-weight: 100;
+}
+.list-item:hover{
+  font-weight: 600;
+}
+.navbar>div>img{
+  width: 110px;
+}
+.button-small{
+  padding: 10px 25px;
+  border-radius: 10px;
+  color: #a08f36;
+  background-color: #2b2922;
+  border-color: #a08f36;
+  font-weight: bold;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero-heading{
+  color: #fff;
+  font-size: 50px;
+  position: relative;
+  top: 50px;
+  left: 130px;
+}
+.hero-body{
+  color: #fff;
+  position: relative;
+  left: 650px;
+  bottom: 50px;
+}
+.justice-img>img{
+  max-height: auto;
+  max-width: 100%;
+}
+
+.next{
+  display: flex;
+  float: right;
+  margin-top: 0;
+}
+.button-large-prev{
+  font-size: 30px;
+  color: #a08f36;
+  background-color: #39372d;
+  padding: 20px 30px;
+  margin: 0;
+  position: relative;
+  bottom: 4px;
+  left: 67px;
+}
+
+.button-large-next{
+  font-size: 30px;
+  color: #fff;
+  background-color: #a08f36;
+  padding:20px 30px;
+  margin: 0;
+  position: relative;
+  bottom: 4px;
+  left: 67px;
+}
+
+.circle{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.one{
+  border: #a08f36 solid;
+  position: relative;
+  top: 18px;
+  right: 65px;
+  z-index: 1;
+}
+.two{
+  border: #fff solid;
+  position: relative;
+  top: 18px;
+  right: 25px;
+  z-index: 1;
+}
