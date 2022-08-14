@@ -6,7 +6,7 @@
 
 
 
-## Project 11 [Live Project Link](https://js-bootcamp-project-3.netlify.app/)
+## Project 3 [Live Project Link](https://js-bootcamp-project-3.netlify.app/)
 ---
 ## Time taken to complete the project
 
